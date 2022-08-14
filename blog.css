@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(white, rgba(255, 192, 203, 0.884))
+ 
+}
+
+img {
+  width: 27%;
+ 
+ margin: calc(17%/6);
+  border: 2px solid black;
+  transition: all 0.4s;
+  filter: grayscale() blur(10px);
+  
+}
+
+nav {
+  display: block;
+  font-size: 3em;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin:0 auto;
+  margin-left: 3%;
+  
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0) blur(0);
+    
+}
